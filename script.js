@@ -68,6 +68,7 @@ function calculateWealth() {
   wealthEl.innerHTML = `<h3>Total Wealth: <strong>${formatMoney(
     wealth
   )}</strong></h3>`;
+  updateDOM();
   main.appendChild(wealthEl);
 }
 
